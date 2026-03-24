@@ -49,4 +49,4 @@ jobs:
           echo "AIRFLOW_ADMIN_LASTNAME=test" >> .env
           echo "AIRFLOW_ADMIN_EMAIL=test@test.com" >> .env
           echo "AIRFLOW_ADMIN_PASSWORD=test" >> .env
-          docker-compose config -q
+          docker compose config -q
