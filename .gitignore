@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Airflow
+logs/
+airflow.db
+airflow-webserver.pid
+
+# Data (Medallion Layers)
+data/bronze/
+data/silver/
+dashboard/*.csv
+
+# Environment / Credentials
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
