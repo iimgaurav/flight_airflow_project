@@ -1,4 +1,4 @@
-# Flight Operations Airflow Pipeline
+# Real time  Flight Operations Airflow Pipeline
 
 A complete data engineering pipeline built with Apache Airflow, implementing a Medallion Architecture (Bronze, Silver, Gold) to process and visualize real-time flight data from the OpenSky API.
 
